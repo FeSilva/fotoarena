@@ -1,5 +1,5 @@
 # fotoarena
-Usando o postman para trabalhar o envio dos dados.
+Utilizando o postman para envio dos dados.
 Utilizar estrutura JSON
 
 {
