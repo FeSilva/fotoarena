@@ -14,9 +14,7 @@ Class ValidaUsuario
 				return $arg[$i];
 			}
 		}
-
 		
-	
 		return $arg;
 	}
 }
