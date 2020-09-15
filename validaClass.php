@@ -9,17 +9,13 @@ Class ValidaUsuario
 			$form['senha'] != $form['conf_pass'] ? "As senhas não são iguais" :  $form['senha']
 		];
 
-		if(!in_array($arg[0],$form)){
-			return $arg[0];
+		for($i = 0; $i < count($arg); $i++){
+			if(!in_array($arg[$i],$form)){
+				return $arg[$i];
+			}
 		}
+
 		
-		if(!in_array($arg[1],$form)){
-			return $arg[1];
-		}
-		
-		if(!in_array($arg[2],$form)){
-			return $arg[2];
-		}
 	
 		return $arg;
 	}
