@@ -15,6 +15,6 @@ $_POST = json_decode(file_get_contents('php://input'));
 
 
 $return = $validar->Validar($dados);
-var_dump(json_decode($return));
+var_dump($return);
 
 
