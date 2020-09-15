@@ -18,7 +18,7 @@ Class ValidaUsuario
 		}
 		
 		if(!in_array($arg[2],$form)){
-			return "As senhas não são iguais";
+			return $arg[2];
 		}
 	
 		return $arg;
