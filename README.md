@@ -1,6 +1,6 @@
 # fotoarena
 Utilizando o postman para envio dos dados.
-Utilizar estrutura JSON
+Utilizar estrutura JSON enviar para INDEX.
 
 {
 	"nome": "Felipe",
