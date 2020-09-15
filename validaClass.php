@@ -21,7 +21,7 @@ Class ValidaUsuario
 			return "As senhas não são iguais";
 		}
 	
-		return json_encode($arg);
+		return $arg;
 	}
 }
 
